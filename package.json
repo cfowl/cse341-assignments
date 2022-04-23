@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cfowl/cse341-assignments.git"
+    "url": "git+https://github.com/cfowl/cse341-node.git"
   },
   "author": "Chris Fowler",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cfowl/cse341-assignments/issues"
+    "url": "https://github.com/cfowl/cse341-node/issues"
   },
-  "homepage": "https://github.com/cfowl/cse341-assignments#readme",
+  "homepage": "https://github.com/cfowl/cse341-node#readme",
   "dependencies": {
     "express": "^4.17.3"
   },
