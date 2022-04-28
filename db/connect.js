@@ -11,9 +11,9 @@ function initDb(callback) {
         return callback(null, _database);
     }
 
-    const client = new MongoClient('mongodb+srv://admin:admin@cluster0.uasjs.mongodb.net/cse341?retryWrites=true&w=majority');
+    const client = new MongoClient();
     
-    client.connect()
+    client.connect('mongodb+srv://admin:admin@cluster0.uasjs.mongodb.net/cse341?retryWrites=true&w=majority')
     .then(client => {
         _database = client;
         callback(null, _database);
