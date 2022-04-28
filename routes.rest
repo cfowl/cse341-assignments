@@ -1,0 +1,18 @@
+// LOCALHOST APP
+GET http://localhost:3000/contacts
+###
+GET http://localhost:3000/contacts/626896030c00cba4d82973d1
+###
+GET http://localhost:3000/contacts/626897c50c00cba4d82973d2
+###
+GET http://localhost:3000/contacts/626897f80c00cba4d82973d3
+###
+
+// HEROKU APP
+GET https://cfowl-cse341.herokuapp.com/contacts
+###
+GET https://cfowl-cse341.herokuapp.com/contacts/626896030c00cba4d82973d1
+###
+GET https://cfowl-cse341.herokuapp.com/contacts/626897c50c00cba4d82973d2
+###
+GET https://cfowl-cse341.herokuapp.com/contacts/626897f80c00cba4d82973d3
