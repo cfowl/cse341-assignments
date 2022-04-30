@@ -1,25 +1,25 @@
 {
-    "contact1": {
-      "firstName": "George",
-      "lastName": "Washington",
-      "email": "gwash@1776.usa",
-      "favoriteColor": "red",
-      "birthday": "02/22/1732"
-    },
-    
-    "contact2": {
-      "firstName": "John",
-      "lastName": "Adams",
-      "email": "jadams@1776.usa",
-      "favoriteColor": "white",
-      "birthday": "10/30/1935"
-    },
-    
-    "contact3": {
-      "firstName": "Thomas",
-      "lastName": "Jefferson",
-      "email": "tjeff@1776.usa",
-      "favoriteColor": "blue",
-      "birthday": "04/13/1943"
-    }
+  "contact1": {
+    "firstName": "George",
+    "lastName": "Washington",
+    "email": "gwash@1776.usa",
+    "favoriteColor": "red",
+    "birthday": "02/22/1732"
+  },
+
+  "contact2": {
+    "firstName": "John",
+    "lastName": "Adams",
+    "email": "jadams@1776.usa",
+    "favoriteColor": "white",
+    "birthday": "10/30/1935"
+  },
+
+  "contact3": {
+    "firstName": "Thomas",
+    "lastName": "Jefferson",
+    "email": "tjeff@1776.usa",
+    "favoriteColor": "blue",
+    "birthday": "04/13/1943"
+  }
 }

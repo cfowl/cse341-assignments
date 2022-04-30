@@ -1,5 +1,6 @@
 const router = require('express').Router();
 
+// home route
 router.get('/', (req, res) => {
     let html = 'William Fowler';
     html += '<ul>';
@@ -7,6 +8,8 @@ router.get('/', (req, res) => {
     html += '</ul>';
     res.send(html);
 });
+
+// contacts route
 router.use('/contacts', require('./contacts'));
 
 module.exports = router;
