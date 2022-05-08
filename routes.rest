@@ -48,4 +48,30 @@ GET https://cfowl-cse341.herokuapp.com/contacts/626897c50c00cba4d82973d2
 GET https://cfowl-cse341.herokuapp.com/contacts/626897f80c00cba4d82973d3
 ###  get contact by ID
 GET https://cfowl-cse341.herokuapp.com/contacts/6275455c0adc31888b102757
-###
+
+### create new contact
+POST http://cfowl-cse341.herokuapp.com/contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "D Lee",
+    "lastName": "Teme",
+    "email": "almost@gone.com",
+    "favoriteColor": "black",
+    "birthday": "01/01/1901"
+}
+
+### update contact by ID
+PUT http://cfowl-cse341.herokuapp.com/contacts/62770e21ba6ecbf7b11c8292 HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "jd2@notreal.com",
+    "favoriteColor": "green",
+    "birthday": "12/12/1912"
+}
+
+### delete contact by ID
+DELETE http://cfowl-cse341.herokuapp.com/contacts/627711c5cc800fd479e777ab HTTP/1.1
