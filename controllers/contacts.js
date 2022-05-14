@@ -1,6 +1,7 @@
 const mongodb = require('../db/connect');
 const ObjectId = require('mongodb').ObjectId;
 
+// gets all contacts
 async function getAllContacts(req, res) {
   const result = await mongodb.getDb().db().collection('contacts').find();
   try {
@@ -13,6 +14,7 @@ async function getAllContacts(req, res) {
   }
 }
 
+// gets one contact by ID
 async function getOneContact(req, res) {
   try {
     const userID = new ObjectId(req.params.id);
@@ -26,6 +28,7 @@ async function getOneContact(req, res) {
   }
 }
 
+// creates a new contact
 async function createContact(req, res) {
   try {
     const contact = {
@@ -47,6 +50,7 @@ async function createContact(req, res) {
   }
 }
 
+// updates a contact by ID
 async function updateContact(req, res) {
   try {
     const userID = new ObjectId(req.params.id);
@@ -71,6 +75,7 @@ async function updateContact(req, res) {
   }
 }
 
+// deletes a contact by ID
 async function deleteContact(req, res) {
   try {
     const userID = new ObjectId(req.params.id);
