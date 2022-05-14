@@ -15,8 +15,8 @@ app.use(bodyParser.json())
        res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
        next();
     })
-   .use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument))
-   .use('/', require('./routes'));
+   .use('/', require('./routes'))
+   .use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 // connect to MongoDB and start the app
 mongodb.initDb(err => {
