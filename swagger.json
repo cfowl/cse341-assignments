@@ -1,14 +1,14 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "My API",
-    "description": "Description",
+    "title": "My Contacts API",
+    "description": "My CSE341 Contacts API",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cfowl-cse341.herokuapp.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
