@@ -16,6 +16,7 @@ function initDb(callback) {
     client.connect()
     .then(client => {
         _database = client;
+        console.log('Connected to the database!');
         callback(null, _database);
     })
     .catch(error => {
