@@ -8,8 +8,7 @@
     "start": "nodemon server.js",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
-    "swagger": "node ./swagger.js"
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "repository": {
     "type": "git",
@@ -23,18 +22,15 @@
   "homepage": "https://github.com/cfowl/cse341-node#readme",
   "dependencies": {
     "body-parser": "^1.20.0",
-    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "mongodb": "^4.5.0",
-    "swagger-ui-express": "^4.4.0"
+    "mongodb": "^4.5.0"
   },
   "devDependencies": {
     "eslint": "^8.14.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.0.0",
     "nodemon": "^2.0.15",
-    "prettier": "^2.6.2",
-    "swagger-autogen": "^2.21.1"
+    "prettier": "^2.6.2"
   }
 }
