@@ -11,17 +11,6 @@
     "https"
   ],
   "paths": {
-    "/": {
-      "get": {
-        "description": "",
-        "parameters": [],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api-docs": {
       "get": {
         "description": "",
@@ -39,6 +28,9 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
           }
         }
       },
@@ -64,6 +56,15 @@
                   "example": "any"
                 },
                 "birthday": {
+                  "example": "any"
+                },
+                "number": {
+                  "example": "any"
+                },
+                "party": {
+                  "example": "any"
+                },
+                "term": {
                   "example": "any"
                 }
               }
@@ -97,6 +98,9 @@
         "responses": {
           "200": {
             "description": "OK"
+          },
+          "500": {
+            "description": "Internal Server Error"
           }
         }
       },
@@ -128,6 +132,15 @@
                   "example": "any"
                 },
                 "birthday": {
+                  "example": "any"
+                },
+                "number": {
+                  "example": "any"
+                },
+                "party": {
+                  "example": "any"
+                },
+                "term": {
                   "example": "any"
                 }
               }

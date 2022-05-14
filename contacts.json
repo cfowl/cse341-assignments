@@ -1,25 +1,77 @@
+[{
+  "_id": {"$oid": "626896030c00cba4d82973d1"},
+  "firstName": "George",
+  "lastName": "Washington",
+  "email": "gwash@1776.usa",
+  "favoriteColor": "red",
+  "birthday": "02/22/1732",
+  "number": "1",
+  "party": "none",
+  "term": "8"
+},
 {
-  "contact1": {
-    "firstName": "George",
-    "lastName": "Washington",
-    "email": "gwash@1776.usa",
-    "favoriteColor": "red",
-    "birthday": "02/22/1732"
-  },
-
-  "contact2": {
-    "firstName": "John",
-    "lastName": "Adams",
-    "email": "jadams@1776.usa",
-    "favoriteColor": "white",
-    "birthday": "10/30/1935"
-  },
-
-  "contact3": {
-    "firstName": "Thomas",
-    "lastName": "Jefferson",
-    "email": "tjeff@1776.usa",
-    "favoriteColor": "blue",
-    "birthday": "04/13/1943"
-  }
-}
+  "_id": {"$oid": "626896030c00cba4d82973d2"},
+  "firstName": "John",
+  "lastName": "Adams",
+  "email": "jadams@1776.usa",
+  "favoriteColor": "white",
+  "birthday": "10/30/1935",
+  "number": "2",
+  "party": "Federalist",
+  "term": "4"
+},
+{
+  "_id": {"$oid": "626896030c00cba4d82973d3"},
+  "firstName": "Thomas",
+  "lastName": "Jefferson",
+  "email": "tjeff@1776.usa",
+  "favoriteColor": "blue",
+  "birthday": "04/13/1943",
+  "number": "3",
+  "party": "Democratic-Republican",
+  "term": "8"
+},
+{
+  "_id": {"$oid": "626896030c00cba4d82973d4"},
+  "firstName": "James",
+  "lastName": "Madison",
+  "email": "jmad@1776.usa",
+  "favoriteColor": "red",
+  "birthday": "03/16/1751",
+  "number": "4",
+  "party": "Democratic-Republican",
+  "term": "8"
+},
+{
+  "_id": {"$oid": "626896030c00cba4d82973d5"},
+  "firstName": "James",
+  "lastName": "Monroe",
+  "email": "jmon@1776.usa",
+  "favoriteColor": "white",
+  "birthday": "04/28/1758",
+  "number": "5",
+  "party": "Democratic-Republican",
+  "term": "8"
+},
+{
+  "_id": {"$oid": "626896030c00cba4d82973d6"},
+  "firstName": "John",
+  "lastName": "Adams",
+  "email": "johna@1776.usa",
+  "favoriteColor": "blue",
+  "birthday": "07/11/1767",
+  "number": "6",
+  "party": "Democratic-Republican, National Republican",
+  "term": "4"
+},
+{
+  "_id": {"$oid": "626896030c00cba4d82973d7"},
+  "firstName": "Andrew",
+  "lastName": "Jackson",
+  "email": "tjeff@1776.usa",
+  "favoriteColor": "red",
+  "birthday": "03/15/1767",
+  "number": "7",
+  "party": "Democratic",
+  "term": "8"
+}]

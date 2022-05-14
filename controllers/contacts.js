@@ -36,7 +36,10 @@ async function createContact(req, res) {
       lastName: req.body.lastName,
       email: req.body.email,
       favoriteColor: req.body.favoriteColor,
-      birthday: req.body.birthday
+      birthday: req.body.birthday,
+      number: req.body.number,
+      party: req.body.party,
+      term: req.body.term
     };
   
     const result = await mongodb.getDb().db().collection('contacts').insertOne(contact);
@@ -59,7 +62,10 @@ async function updateContact(req, res) {
       lastName: req.body.lastName,
       email: req.body.email,
       favoriteColor: req.body.favoriteColor,
-      birthday: req.body.birthday
+      birthday: req.body.birthday,
+      number: req.body.number,
+      party: req.body.party,
+      term: req.body.term
     };
   
     console.log(contact);

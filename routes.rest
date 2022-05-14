@@ -18,7 +18,10 @@ Content-Type: application/json
     "lastName": "Tme",
     "email": "almost@gone.com",
     "favoriteColor": "black",
-    "birthday": "01/01/1901"
+    "birthday": "01/01/1901",
+    "number": "88",
+    "party": "unknown",
+    "term": "unknown"
 }
 
 ### update contact by ID
@@ -30,7 +33,10 @@ Content-Type: application/json
     "lastName": "Doe",
     "email": "jd2@notreal.com",
     "favoriteColor": "green",
-    "birthday": "12/12/1912"
+    "birthday": "12/12/1912",
+    "number": "99",
+    "party": "what?",
+    "term": "unknown"
 }
 
 ### delete contact by ID
@@ -57,7 +63,10 @@ Content-Type: application/json
     "lastName": "User",
     "email": "hello@email.com",
     "favoriteColor": "white",
-    "birthday": "10/10/1010"
+    "birthday": "10/10/1010",
+    "number": "1",
+    "party": "yes",
+    "term": "what?"
 }
 
 ### update contact by ID
@@ -69,7 +78,10 @@ Content-Type: application/json
     "lastName": "Doe",
     "email": "jd2@notreal.com",
     "favoriteColor": "green",
-    "birthday": "12/12/1912"
+    "birthday": "12/12/1912",
+    "number": "2",
+    "party": "no",
+    "term": "limits"
 }
 
 ### delete contact by ID
