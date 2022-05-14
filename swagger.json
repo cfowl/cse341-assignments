@@ -11,15 +11,11 @@
     "https"
   ],
   "paths": {
-    "/": {
+    "/api-docs": {
       "get": {
         "description": "",
         "parameters": [],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
+        "responses": {}
       }
     },
     "/contacts/": {
